@@ -1,5 +1,5 @@
 #include <stdlib.h>
-#include <unistd.h>
+#include "main.h"
 
 void print_alphabet(void);
 
@@ -13,8 +13,8 @@ int main(void)
 
 void print_alphabet(void)
 {
-	int i = 0;
-	for (i='a';i<='z',i++)
+	char i;
+	for (i='a'; i<='z';i++)
 	{
 		 _putchar(i);
 	}

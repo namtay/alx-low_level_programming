@@ -1,13 +1,15 @@
 #include <stdlib.h>
 
-#include <unistd.h>
+#include "main.h"
 
 int print_last_digit(int d);
 
 int main(void)
 {
 	int d= 12233;
-	print_last_digit(int d);
+	int r;
+	r= print_last_digit(int d);
+	_putchar(r);
 	_putchar('\n');
 	return (0);
 }

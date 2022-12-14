@@ -1,6 +1,6 @@
-#include <stdlib.h>
+#include <stdio.h>
 
-#include <unistd.h>
+#include "main.h"
 #void times_table(void);
 
 int main(void)

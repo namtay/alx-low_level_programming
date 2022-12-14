@@ -1,26 +1,27 @@
 #include <stdlib.h>
-#include <unistd.h>
+#include "main.h"
 
-void print_alphabet_x10(void);
+void print_alphabet_x10();
 
-int main(void)
+int main()
 {	
-	print_alphabet_x10(void);
+	print_alphabet_x10();
 
 	return (0);
 
 }
 
-void print_alphabet_x10(void)
+void print_alphabet_x10()
 {    
-	int i = 0;
+	char i;
 	int s = 0;
-	for( int s = 0; s<10;s++)
+	for(  s = 0; s<10;s++)
 	{
-		for (i='a';i<='z',i++)
+		for (i='a'; i<='z',i++)
 		{
-			 _putchar('r');
+			 _putchar(i);
 		}
-	    	 _putchar('\n');
-	}   
-}	
+		_putchar('\n');
+	}
+}
+	    
